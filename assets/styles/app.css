@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 1.6rem;
+  padding: 3rem;
+}
+
+.wrapper__search {
+  background-color: #9db2bf79;
+  width: 100%;
+  height: 9rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper__input--search {
+  margin: 0 2rem;
+  width: 50%;
+  padding: 0.8rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+
+.wrapper__input--search input {
+  font-family: "Arial";
+  outline: none;
+  font-size: 1.8rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+}
+.wrapper__btn--search {
+  margin: 0 2rem;
+  padding: 0.8rem 4rem;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 1rem;
+  background-color: #4e31aa;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  cursor: pointer;
+  transition: all 250ms ease-in 20ms;
+  -webkit-transition: all 250ms ease-in 20ms;
+  -moz-transition: all 250ms ease-in 20ms;
+  -ms-transition: all 250ms ease-in 20ms;
+  -o-transition: all 250ms ease-in 20ms;
+}
+.wrapper__btn--search:hover {
+  background-color: #4d31aac4;
+}
+
+.wrapper__img--dog {
+  cursor: pointer;
+  max-width: 40rem;
+  margin-top: 5rem;
+  position: relative;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  /* border: .5rem solid #0000004e; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
+@media screen and (max-width:500px) {
+  .wrapper__img--dog{
+    width: 30rem;
+  }
+  .wrapper__btn--search{
+    padding:1.5rem 1rem;
+  }
+}
