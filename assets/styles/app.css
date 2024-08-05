@@ -20,7 +20,10 @@ body {
   font-size: 1.6rem;
   padding: 3rem;
 }
-
+.title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5rem;
+}
 .wrapper__search {
   background-color: #9db2bf79;
   width: 100%;
@@ -101,5 +104,10 @@ body {
   }
   .wrapper__btn--search{
     padding:1.5rem 1rem;
+  }
+  .title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
